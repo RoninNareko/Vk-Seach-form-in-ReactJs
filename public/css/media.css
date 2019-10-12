@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+
+    .usersContainer{
+        background: yellowgreen;
+    
+        border: 1px solid black;
+        margin-top: 2px;
+    }
+    #results{
+        width: 300px;
+       
+        
+        margin-left: 200px;
+      
+    }
+    button{
+        margin-top: 2px;
+    }
+    #results div{
+        float: left;
+    }
+    form span{
+        color: red;
+        
+    }
+    form{
+        color: aliceblue;
+        background: #5181B8;
+        width: 170px;
+        position: fixed;
+    }
+    #resText{
+        background: gold;
+        width: 240px;
+        margin-left: 200px;
+    }
+    #text_mobil{
+        padding-top: 10px;
+        height: 40px;
+        padding-left: 5px;
+        background: aquamarine;
+        
+        width: 185px;
+    }
+
+    .user_avatar_block{
+        height: 50px;
+        background: yellowgreen;
+    }
+    #userAvatar {
+        width: 50px;
+        height: 50px;
+    }
+  }

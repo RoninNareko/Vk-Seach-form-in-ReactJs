@@ -1,0 +1,71 @@
+
+.usersContainer>div {
+    display: block;
+    margin-top: 1px;
+    float: left;
+}
+
+.usersContainer {
+    background: grey;
+}
+
+.user_avatar_block {
+    
+    height: 120px;
+    width: 120px;
+    background: yellowgreen;
+}
+
+.user_avatar_block img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+}
+
+.text_info {
+    position: relative;
+    background: aquamarine;
+    width: 800px;
+    padding-top: 40px;
+    padding-left: 40px;
+    height: 80px;
+}
+
+#results {
+    position: relative;
+    margin-top: 0px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gold;
+
+ 
+    width: 963px;
+}
+button{
+    margin-top: 5px;
+}
+#data h3{
+    
+    text-align: center;
+}
+#data{
+    
+    background-color: gold;
+    margin-left: 500px;
+    margin-top: 20px;
+    
+    width: 960px;
+}
+form span{
+    color: red;
+    
+}
+form{
+    color: aliceblue;
+    background: #5181B8;
+    position: fixed;
+    margin-top: 10px;
+    width: 480px;
+  
+}
