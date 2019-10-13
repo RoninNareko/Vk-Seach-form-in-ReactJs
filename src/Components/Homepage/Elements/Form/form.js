@@ -67,6 +67,9 @@ class Form extends React.Component {
                 errorText1 = document.querySelector('#err_day').textContent = ' ';
                 errorText2 = document.querySelector('#err_year').textContent = '';
                 errorText3 = document.querySelector('#err_mont').textContent = ' ';
+
+                let resText = document.querySelector('#resText');
+                resText.textContent = `Загрузка... `;
                 return true;
             }
         }
@@ -120,15 +123,22 @@ class Form extends React.Component {
         }
         callBack(result) {
             let resultatsText = document.querySelector('#resText');
-            result.response.items.forEach(element => {
-                this.container(element);
-            });
-            resultatsText.textContent = `Наидено ${result.response.items.length} Человек`;
+        
+            if(result.response === undefined){
+                resultatsText.textContent = ' "RESPONSE UNDEFINED" возможно истек время токена!';
+                return;
+            }
+            else
+            {
+                result.response.items.forEach(element => {
+                    this.container(element);
+                });
+                resultatsText.textContent = `Наидено ${result.response.items.length} Человек`;
 
-            let images = document.querySelectorAll('img');
+                let images = document.querySelectorAll('img');
 
-            this.lazyLoader(images);
-
+                this.lazyLoader(images);
+            }
         }
         request(InputsValue){
             let token = "8960b32e897cf0a4a2716887af13558995b51bc4c75615f90c0c95ad884229ac4d4d1e58e8f24c4709f40";
