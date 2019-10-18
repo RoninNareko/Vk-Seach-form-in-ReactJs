@@ -1,6 +1,6 @@
 import React from 'react';
 import jsonp from "../jsones/jsonp";
-import Form from "../form/form";
+import MyForm from "../form/vkform";
 import UsersList from "../userslist/UsersList.js";
 import Loading from "../loading/loading";
 
@@ -43,7 +43,7 @@ class SearchEngine extends React.Component {
             return(
                 <div className="main">
                     {/* Рендерим форму */}
-                    <Form handleSubmit={this.handleSubmit} />              
+                    <MyForm handleSubmit={this.handleSubmit} />              
                     <div className="list_container">
                     {   
                         (this.state.loading) ? <Loading/>://Проверяем закончилась ли загрузка

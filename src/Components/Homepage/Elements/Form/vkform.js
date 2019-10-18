@@ -19,7 +19,7 @@ function Button(props) {
         <button name={props.name} type={props.type}>{props.value}</button>
     );
 }
-class MyForm extends React.Component{
+class Form extends React.Component{
         constructor(props){
             super(props);
                     this.state = {
@@ -97,4 +97,4 @@ class MyForm extends React.Component{
             );
         }
 }
-export default MyForm;
+export default Form;
