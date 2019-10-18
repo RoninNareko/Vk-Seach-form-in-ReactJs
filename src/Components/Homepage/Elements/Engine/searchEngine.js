@@ -1,6 +1,6 @@
 import React from 'react';
 import jsonp from "../jsones/jsonp";
-import MyForm from "../form/vkform";
+import MyForm from "../myform/vkform";
 import UsersList from "../userslist/UsersList.js";
 import Loading from "../loading/loading";
 
