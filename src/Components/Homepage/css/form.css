@@ -1,0 +1,98 @@
+.list_container{
+    position: relative;
+
+    color: cornflowerblue;
+    margin-left: 500px;
+    width: 33%;
+    
+    
+
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    margin-top: 100px;
+    text-align: center;
+}
+form{
+    position: fixed;
+    top: 10px;
+    background: #EBEEF2;
+    padding: 20px;
+}
+label{
+    border-radius: 1px;
+    
+    font-weight: bold;
+    color: #575c66;
+}
+input{
+    padding: 6px 10px 8px;
+    width: 145px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    color: black;
+    border: 1px solid #d3d9de;
+}
+li{
+    display: block;
+}
+button{
+    position: relative;
+    
+    border:transparent;
+    width: 145px;
+    background:rgb(81, 129, 184);
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 16px 8px;
+    margin-top: 20px;
+}
+.User_Information_block{
+    background: #fff;
+    padding: 10px;
+    height: 60px;
+    width: 500px;
+    border-bottom: 1px solid #E7E8EC;
+}
+.user_avatar, .description{
+    display: block;
+    float: left;
+}
+.Button_Link{
+    margin-top: 15px;
+    float: right;
+}
+.Button_Link a{
+    vertical-align: top;
+    line-height: 15px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    
+    padding: 7px 16px 8px;
+    border-radius: 5px;
+    background-color: rgb(81, 129, 184);
+    text-align: center;
+    text-decoration: none;
+
+}
+.description{
+    font-size: 15px;
+    color: rgb(42, 88, 133);
+    font-weight: bold;;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.user_avatar img {
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid none; /* Параметры рамки */
+    box-shadow: 0 0 2px #666; /* Параметры тени */
+    height: 60px;
+   }
+
+.user_avatar{
+    background: none;
+    position: relative;
+}
