@@ -75,7 +75,7 @@ class Form extends React.Component{
                 event.preventDefault();
                 const isValid = this.validate();
                 if(isValid){//Проверяем валидацию
-                    const InputsValue = [this.state.day, this.state.month, this.state.year];
+                    const InputsValue = [this.state.day, this.state.month, this.state.year];// поля с данными
                     this.props.handleSubmit(event,InputsValue); //вызываем оброботчик родителского класса и передаем туда значение наших полей input
 
                     //очишаем ошибки
